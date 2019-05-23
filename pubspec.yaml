@@ -1,6 +1,6 @@
 name: mvp
 description: Flutter package to build applications using Model View Presenter (MVP) architecture.
-version: 0.0.0
+version: 1.0.0
 author: David Serrano Canales (svprdga)
 homepage: https://github.com/svprdga/mvp
 
