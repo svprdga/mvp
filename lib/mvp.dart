@@ -16,7 +16,8 @@ library mvp;
 
 import 'package:flutter/material.dart';
 
-/// Base MVP screen, all of your screens should inherit from this class.
+/// Base MVP screen, all of your screen state classes
+/// should inherit from this class.
 ///
 /// Access [viewModel] property to get the current view state.
 ///
@@ -73,7 +74,7 @@ abstract class MvpPresenter<V, S> {
   ///
   /// After the binding, the presenter can use [callback] to apply the input
   /// [viewModel] object.
-  /// Also afther this binding, the presenter can call view methods with the
+  /// Also after this binding, the presenter can call view methods with the
   /// [screen] property.
   ///
   /// This method will also apply the initial set up of the [viewModel].
@@ -87,7 +88,7 @@ abstract class MvpPresenter<V, S> {
   /// This method must be called in the [dispose] method of the widget to
   /// destroy the binding.
   ///
-  /// After that unbind, the presenter cannot longer apply [viewModel] stats
+  /// After that unbind, the presenter cannot longer apply [viewModel] states
   /// nor calling [screen] methods.
   void unbind() {
     this.callback = null;

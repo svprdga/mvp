@@ -7,10 +7,10 @@ Flutter package to build applications using Model View Presenter (MVP) architect
 MVP stands for Model View Presenter.
 
 It is a well known architecture, widely used in app development.
-The way it work is as follows:
+The way it works is as follows:
 - We have objects that represents our data (the model).
 - We have views which renders the UI components and gathers user input (the view).
-- And finally we have components that receives user input and decide what we do with it, updates the model and then tell the view how the render again (the presenter). 
+- And finally we have components that receives user input and decides what to do with it, updates the model and then passes it to the view to redraw everything with the new data (the presenter). 
 
 ## MVP advantages
 
