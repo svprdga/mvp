@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+# Changelog
 
-* TODO: Describe initial release.
+## [1.0.0] - 2019-05-23
+### Added
+- Abstract MvpScreen and MvpPresenter classes to start using a basic MVP architecture.
